@@ -4,10 +4,9 @@ import java.io.IOException;
 import java.sql.*;
 
 public class DB_MAN {
-	String strDriver = "com.mysql.jdbc.Driver"; 
-			//"com.microsoft.sqlserver.jdbc.SQLServerDriver";
+    //MySQL을 접속할 정보
+    String strDriver = "com.mysql.jdbc.Driver"; 
     String strURL = "jdbc:mysql://localhost/test0408";
-    		//"jdbc:sqlserver://127.0.0.1:1433;DatabaseName=Diary";
     String strUser = "root";
     String strPWD = "ohgg805**";
     
@@ -15,6 +14,7 @@ public class DB_MAN {
     Statement DB_stmt; //To store statement for DB Connection
     ResultSet DB_rs; //To store result of SQL Execution
     
+    //DB를 열고 SQL문을 실행하는 메소드
     public void dbOpen() throws IOException{
         try {
             Class.forName(strDriver); //Load JDBC-ODBC bridge driver
@@ -25,6 +25,7 @@ public class DB_MAN {
         }
     }
     
+    //DB를 닫는 메소드
     public void dbClose() throws IOException{
         try {
             DB_stmt.close(); //Exit Statement Connection
