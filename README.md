@@ -8,7 +8,7 @@ https://www.gettyimagesgallery.com/collections/
      
 ## DB 구조   
    
-![00.DB 구조.png](/img/00.db%20structure.PNGG)    
+![00.DB 구조.png](/img/00.db%20structure.PNG)    
 category - 시진의 카테고리 정보 (큰 카테고리와 세부 카테고리로 나위어진다)   
 product - 사진의 정보 (시진 제목, 사진 키워드, 사진 URL 등)   
    
@@ -38,4 +38,4 @@ product - 사진의 정보 (시진 제목, 사진 키워드, 사진 URL 등)
 **<Jsoup으로 crawling한 결과>**   
 ![05.이미지 수집 실행 결과.png](/img/05.menu2_result.PNG)   
 
-![05.이미지 수집 실행 결과 data.png](/img/05.menu2_result_DBdataExample.png)   
+![05.이미지 수집 실행 결과 data.png](/img/05.menu2_result_DBdataExample.PNG)   
