@@ -14,19 +14,19 @@ product - 사진의 정보 (시진 제목, 사진 키워드, 사진 URL 등)
    
       
 ## 카테고리 수집      
-**<카테고리 - p_category>**   
+   ####<카테고리 - p_category>**   
    
 ![01.카테고리 코드.png](/img/01.p_category.png)   
 오른쪽 사이트는 이미지를 수집하는 사이트의 모습이다.    
 사이트 메뉴 Collections은 이미지 카테고리를 뜻하는데, 여기서 모든 카테고리를 뜻하는 Image Library를 제외하고 수집한다.    
    
-**<세부 카테고리 - c_category>**   
+   ####<세부 카테고리 - c_category>**   
    
 ![02.세부 카테고리 코드.png](/img/02.c_category.png)      
 아래 사이트는 이미지를 수집하는 사이트의 모습이다.    
 각 카테고리 밑에 세부 카테고리가 존재하는데, 여기서 모든 카테고리를 뜻하는 All를 제외하고 수집한다.    
    
-**<Jsoup으로 crawling한 결과>**  
+   ####<Jsoup으로 crawling한 결과>**  
    
 ![03.카테고리 수집 실행 결과.png](/img/03.menu1_result.png)   
    
