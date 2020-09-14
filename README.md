@@ -50,7 +50,7 @@ product - 사진의 정보 (시진 제목, 사진 키워드, 사진 URL 등)
    
 > __<Jsoup으로 crawling한 결과>__   
 >    
-![05.이미지 수집 실행 결과.png](/img/05.menu2_result.PNG)   
+> ![05.이미지 수집 실행 결과.png](/img/05.menu2_result.PNG)   
         
    
 > __<Jsoup으로 crawling한 결과 DB에 들어간 데이터>__  
